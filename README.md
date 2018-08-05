@@ -1,21 +1,11 @@
-# Identicon
+# Identicon Elixir
 
-**TODO: Add description**
+## Running and Testing
 
-## Installation
+### `mix deps.get`
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+  Run `mix deps.get` to install all necessary dependencies.
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
-```
+### `iex -S mix`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
+  Use `iex` to start the Elixir terminal. `Identicon.main` is the main start entry point function to generate identicons.
